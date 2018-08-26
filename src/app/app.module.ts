@@ -2,10 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { WelcomeComponent } from './welcome.component';
 
-@NgModule({
+import {Reviewcomclass} from './newcom/newcom.Component';
+
+@NgModule({ 
   declarations: [
-    AppComponent
+    AppComponent,
+    Reviewcomclass,
+	WelcomeComponent
   ],
   imports: [
     BrowserModule

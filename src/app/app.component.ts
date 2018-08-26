@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularapp';
+  title = 'justin case';
+  productName = 'rose powder';
+  productDescription = 'face talc';
+  productCost = '5 rs';
+  productReviews = [{name :'ramu',review :'this product is good to use'},
+                    {name:'rani',review :'this product is very smooth'}];
 }
